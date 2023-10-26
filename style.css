@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    height: 5000px;
+    width: 300px;
+    overflow: hidden;
+}
+#box img{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+#box:hover img{
+    scale: 1.2;
+
+}
